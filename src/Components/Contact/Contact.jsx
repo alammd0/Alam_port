@@ -1,5 +1,4 @@
-import React from 'react'
-import Faded from '../faded'
+import Faded from '../Faded'
 import ContactForm from './ContactForm'
 import ContactInfo from './ContactInfo'
 import "./Contact.css"

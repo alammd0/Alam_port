@@ -1,5 +1,5 @@
 import React from 'react'
-import Faded from '../faded';
+import Faded from '../Faded';
 import "./Skill.css"
 
 const Skill = () => {

@@ -1,7 +1,7 @@
-import React from 'react'
 import "./About.css"
 import About_img from "../../assets/About_img.png"
-import Faded from '../faded'
+import Faded from "../Faded"
+
 
 const About = () => {
     return (

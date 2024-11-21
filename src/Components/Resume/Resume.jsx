@@ -1,9 +1,8 @@
 import React from 'react'
-import Faded from '../faded';
+import Faded from '../Faded';
 import "./Resume.css"
 import icon2 from "../../assets/resume-icon2.png";
 import icon1 from "../../assets/resume-icon1.png";
-import { TiShoppingBag } from "react-icons/ti";
 
 const Resume = () => {
 

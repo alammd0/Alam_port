@@ -1,6 +1,5 @@
 import React, { useEffect } from 'react'
 import "./Home.css"
-import Profiles from "../../assets/Profiles.png"
 import { FaLinkedinIn } from "react-icons/fa6";
 import { FaInstagram } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa6";

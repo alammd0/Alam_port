@@ -1,6 +1,5 @@
-import React from 'react'
 import "./Project.css"
-import Faded from '../faded'
+import Faded from '../Faded.jsx'
 import ImageCont from './ImageCont'
 
 const Project = () => {
