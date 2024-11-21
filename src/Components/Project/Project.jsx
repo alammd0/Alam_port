@@ -1,6 +1,6 @@
 import "./Project.css"
-import Faded from '../Faded'
 import ImageCont from './ImageCont'
+import FaddedTxt from "../FaddedText/FaddedTxt"
 
 const Project = () => {
     return (
@@ -8,8 +8,8 @@ const Project = () => {
 
             <div className='project_container'>
                 <div className='fadded_text_container'>
-                    <Faded title={"Project"} />
-                    <Faded heading={"Project"} />
+                    <FaddedTxt title={"Project"} />
+                    <FaddedTxt heading={"Project"} />
                 </div>
 
                 <div className='project_cards'>

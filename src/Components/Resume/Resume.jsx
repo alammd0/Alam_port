@@ -1,8 +1,8 @@
 import React from 'react'
-import Faded from '../Faded';
 import "./Resume.css"
 import icon2 from "../../assets/resume-icon2.png";
 import icon1 from "../../assets/resume-icon1.png";
+import FaddedTxt from '../FaddedText/FaddedTxt';
 
 const Resume = () => {
 
@@ -45,8 +45,8 @@ const Resume = () => {
             <div className='resume_container'>
 
                 <div className='fadded_text_container'>
-                    <Faded title={"RESUME"} />
-                    <Faded heading={"RESUME"} />
+                    <FaddedTxt title={"RESUME"} />
+                    <FaddedTxt heading={"RESUME"} />
                 </div>
 
                 <div className='resume_content_container'>

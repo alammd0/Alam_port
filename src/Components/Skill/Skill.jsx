@@ -1,6 +1,6 @@
 import React from 'react'
-import Faded from '../Faded';
 import "./Skill.css"
+import FaddedTxt from '../FaddedText/FaddedTxt';
 
 const Skill = () => {
 
@@ -39,8 +39,8 @@ const Skill = () => {
 
 
         <div className='fadded_text_container'>
-          <Faded title={"MY SKILLS"} />
-          <Faded heading={"MY SKILLS"} />
+          <FaddedTxt title={"MY SKILLS"} />
+          <FaddedTxt heading={"MY SKILLS"} />
         </div>
 
 

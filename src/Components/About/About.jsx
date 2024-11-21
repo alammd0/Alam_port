@@ -1,6 +1,6 @@
 import "./About.css"
 import About_img from "../../assets/About_img.png"
-import Faded from "../Faded"
+import FaddedTxt from "../FaddedText/FaddedTxt"
 
 
 const About = () => {
@@ -9,8 +9,8 @@ const About = () => {
             <div className='about_container'>
 
                 <div className='fadded_text_container'>
-                    <Faded title = {"About Me"} />
-                    <Faded heading = {"About Me"} />
+                    <FaddedTxt title = {"About Me"} />
+                    <FaddedTxt heading = {"About Me"} />
                 </div>
 
                 <div className='info_container'>

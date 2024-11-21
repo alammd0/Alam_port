@@ -1,7 +1,7 @@
 import ContactForm from './ContactForm'
 import ContactInfo from './ContactInfo'
 import "./Contact.css"
-import Faded from '../Faded'
+import FaddedTxt from '../FaddedText/FaddedTxt'
 
 const Contact = () => {
     return (
@@ -9,8 +9,8 @@ const Contact = () => {
             <div className='project_container contact_container'>
 
                 <div className='fadded_text_container'>
-                    <Faded title={"Contact"} />
-                    <Faded heading={"Contact"} />
+                    <FaddedTxt title={"Contact"} />
+                    <FaddedTxt heading={"Contact"} />
                 </div>
 
                 <div className='contact_content'>
