@@ -1,7 +1,7 @@
-import Faded from '../Faded'
 import ContactForm from './ContactForm'
 import ContactInfo from './ContactInfo'
 import "./Contact.css"
+import Faded from '../Faded'
 
 const Contact = () => {
     return (
