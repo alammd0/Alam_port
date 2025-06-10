@@ -72,18 +72,14 @@
   .fadded_text_container {
     margin-top: 0.75rem;
     padding: 0;
-    padding-right: 75px;
-  }
-
-   .programming {
-    padding-right: 75px;
+    padding-right: 40px;
   }
 
   .skill_wrapper {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-right: 90px;
+    padding-right: 60px;
   }
 
   .skils_heading {
@@ -94,5 +90,4 @@
     width: fit-content;
   }
 
- 
 }

@@ -87,21 +87,19 @@
   }
 
   .info_img {
-    padding-right: 80px;
+    padding-right: 40px;
   }
 
   .info_img img {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 350px;
+    height: 400px;
   }
 
   .information_box {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding-right: 120px;
+    flex-direction: column; 
+    padding-right: 50px;
   }
 }
