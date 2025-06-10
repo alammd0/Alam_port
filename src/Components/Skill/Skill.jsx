@@ -49,9 +49,9 @@ const Skill = () => {
         <div className='lang_skills'>
 
           <div className="skill-container">
-            <h2 className='skils_heading'>Programming Language</h2>
+            <h2 className='skils_heading programming'>Programming Language</h2>
 
-            <div>
+            <div className='programming'>
               {programLan.map((skill, index) => (
                 <div className="skill" key={index}>
                   <div className="skill-name">{skill.name}</div>
@@ -67,9 +67,9 @@ const Skill = () => {
           </div>
 
           <div className="skill-container">
-            <h2 className='skils_heading' >Web Devlopment Language</h2>
+            <h2 className='skils_heading programming'>Web Devlopment Skills</h2>
 
-            <div>
+            <div className='programming'>
               {DevlopLan.map((skill, index) => (
                 <div className="skill" key={index}>
                   <div className="skill-name">{skill.name}</div>
@@ -86,9 +86,9 @@ const Skill = () => {
 
 
           <div className="skill-container">
-            <h2 className='skils_heading' >Core Subject</h2>
+            <h2 className='skils_heading programming' >Core Subject</h2>
 
-            <div>
+            <div className='programming '>
               {coreSubj.map((skill, index) => (
                 <div className="skill" key={index}>
                   <div className="skill-name">{skill.name}</div>
@@ -104,9 +104,9 @@ const Skill = () => {
           </div>
 
           <div className="skill-container">
-            <h2 className='skils_heading'>Data Base</h2>
+            <h2 className='skils_heading programming'>Data Base</h2>
 
-            <div>
+            <div className='programming'>
               {DataBase.map((skill, index) => (
                 <div className="skill" key={index}>
                   <div className="skill-name">{skill.name}</div>

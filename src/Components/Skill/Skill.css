@@ -67,3 +67,32 @@
   border: 1px dashed #eedb6c;
   border-radius: 8px;
 }
+
+@media screen and (max-width: 768px) {
+  .fadded_text_container {
+    margin-top: 0.75rem;
+    padding: 0;
+    padding-right: 75px;
+  }
+
+   .programming {
+    padding-right: 75px;
+  }
+
+  .skill_wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 90px;
+  }
+
+  .skils_heading {
+    margin-top: 1rem;
+    padding-right: 0.5rem;
+    border: 1px dashed #eedb6c;
+    border-radius: 8px;
+    width: fit-content;
+  }
+
+ 
+}

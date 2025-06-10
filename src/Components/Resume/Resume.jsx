@@ -52,6 +52,7 @@ const Resume = () => {
                 <div className='resume_content_container'>
                     
                     <div className='education_container'>
+
                         <div className='heaading'>
                             <img src={icon2} alt='not' />
                             <h2>Education</h2>
@@ -71,6 +72,7 @@ const Resume = () => {
                                 }
                             </div>
                         </div>
+                        
                     </div>
 
                     <div className='experiences_container'>
