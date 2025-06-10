@@ -2,6 +2,7 @@
     margin-top: 1rem;
     padding: 2.5rem 0;
     background-color: #0A101E;
+    padding-top: 100px;
 }
 
 .about_container {
@@ -9,9 +10,7 @@
     margin: 0 auto;
     text-align: center;
     display: flex;
-    flex-direction: column;
     gap: 30px;
-
 }
 
 .fadded_text_container {
@@ -19,8 +18,6 @@
     text-align: center;
     border: none;
 }
-
-
 
 .info_container {
     padding-top: 30px;

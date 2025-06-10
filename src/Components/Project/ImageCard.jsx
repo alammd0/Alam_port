@@ -24,7 +24,7 @@ const ImageCard = ({ imgScr, link, title, desc }) => {
                         <a href={link} target="_blank" rel="noopener noreferrer">Check</a>
                     </div>
 
-                    <div>
+                    <div className='title-desc-box'>
                         <h2>{title}</h2>
                         <p>{desc}</p>
                     </div>

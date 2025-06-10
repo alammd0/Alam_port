@@ -1,3 +1,8 @@
+.project_wrapper{
+    max-width: 1380px;
+    margin: 0 auto;
+}
+
 .contact_content{
     display: flex;
     justify-content: space-between;
@@ -6,7 +11,6 @@
 .from_container{
     min-width: 45%;
 }
-
 
 .contact_from_container {
     max-width: 600px;

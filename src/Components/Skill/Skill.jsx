@@ -5,32 +5,34 @@ import FaddedTxt from '../FaddedText/FaddedTxt';
 const Skill = () => {
 
   let programLan = [
-    { name: "Java", level: 80 },
+    { name : "TypeScript", level : 80},
+        { name: "JavaScript", level: 80 },
+    { name: "Java Core", level: 80 },
     { name: "Python", level: 50 },
-    { name: "C", level: 75 },
-    { name: "C++", level: 65 },
-    { name: "JavaScript", level: 80 },
+    { name: "C", level: 40 },
+    { name: "C++", level: 30 },
+
   ];
 
   let DevlopLan = [
-    { name: "HTML", level: 90 },
-    { name: "CSS", level: 80 },
-    { name: "TailWind CSS", level: 85 },
-    { name: "JavaScript", level: 79 },
-    { name: "React Js", level: 67 },
+    { name: "Cloudflare workers (Hono)", level : 75},
+    { name: "Express JS", level : 85},
+    { name: "Next Js", level : 60},
+    { name: "Tailwind CSS", level: 90 },
+    { name: "React Js", level: 65 },
+    { name: "Redux Toolkit", level : 80}
   ];
 
   let DataBase = [
-    { name: "MongoDB", level: 40 },
-    { name: "SQL", level: 30 }
+    { name: "MongoDB", level: 85 },
+    { name: "Postgress", level : 85},
+    { name: "SQL", level: 50 }
   ];
 
   let coreSubj = [
-    { name: "DSA", level: 50 },
+    { name: "DSA", level: 40 },
     { name: "OOP", level: 70 },
     { name: "OS", level: 50 },
-    { name: "DBMS", level: 20 },
-    { name: "NETWORKING", level: 20 }
   ]
 
   return (

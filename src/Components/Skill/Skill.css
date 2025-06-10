@@ -1,71 +1,69 @@
 .skill_wrapper {
-    background-color: #070D1B;
-    margin-top: 3rem;
-    padding: 2.5rem 0;
+  background-color: #070d1b;
+  margin-top: 3rem;
+  padding: 2.5rem 0;
 }
 
 .skill_container {
-    max-width: 1180px;
-    margin: 0 auto;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 30px;
+  max-width: 1180px;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 30px;
 }
 
 .fadded_text_container {
-    margin-top: 2rem;
-    padding: 2rem 0;
+  margin-top: 2rem;
+  padding: 2rem 0;
 }
 
 .lang_skills {
-    display: flex;
-    flex-wrap: wrap; 
+  display: flex;
+  flex-wrap: wrap;
 }
 
-
 .skill-container {
-    
-    max-width: 400px;
-    width: 100%;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    gap:10px;
-  }
-  
-  .skill {
-    margin: 10px 0;
-    color: white;
-  }
-  
-  .skill-name {
-    font-size: 16px;
-    margin-bottom: 6px;
-    text-align: left;
-  }
-  
-  .skill-bar {
-    background-color: #2b2b2b;
-    border-radius: 5px;
-    overflow: hidden;
-  }
-  
-  .skill-level {
-    background-color: #e9cb51;
-    height: 10px;
-    border-radius: 5px;
-    text-align: right;
-    padding-right: 5px;
-    color: rgb(238, 119, 119);
-    font-size: 12px;
-    font-weight: bold;
-  }
-  
-.skils_heading{
-    margin-top: 1.25rem;
-    padding: 0.75rem;
-    border: 1px dashed #eedb6c;
-    border-radius: 8px;
+  max-width: 400px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.skill {
+  margin: 10px 0;
+  color: white;
+}
+
+.skill-name {
+  font-size: 16px;
+  margin-bottom: 6px;
+  text-align: left;
+}
+
+.skill-bar {
+  background-color: #2b2b2b;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.skill-level {
+  background-color: #e9cb51;
+  height: 10px;
+  border-radius: 5px;
+  text-align: right;
+  padding-right: 5px;
+  color: rgb(238, 119, 119);
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.skils_heading {
+  margin-top: 1.25rem;
+  padding: 0.75rem;
+  border: 1px dashed #eedb6c;
+  border-radius: 8px;
 }

@@ -1,17 +1,11 @@
-.project_wrapper {
-    background-color: #070D1B;
-    margin-top: 3rem;
-    padding: 2.5rem 0;
-}
-
 .project_container {
-    max-width: 1180px;
-    margin: 0 auto;
     text-align: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
     gap: 30px;
+    padding-left: 80px;
+    padding-right: 80px;
 }
 
 .image-gallery {
@@ -64,6 +58,31 @@
     gap: 40px;
     opacity: 0;
     transition: opacity 0.5s ease;
+}
+
+.title-desc-box{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.title-desc-box h2{
+    background-color: #070D1B;
+    width: fit-content;
+    text-align: center;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 18px;
+}
+
+.title-desc-box p{
+    background-color: #070D1B;
+    width: fit-content;
+    text-align: center;
+    padding: 4px 8px;
+    border-radius: 4px;
 }
 
 .click a {
