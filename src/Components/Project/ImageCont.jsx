@@ -2,7 +2,7 @@ import GYM_WEB from "../../assets/Project_Img/GYM_WEB.jpg";
 import Dic from "../../assets/Project_Img/Dic.jpg";
 import Game from "../../assets/Project_Img/Game.jpg";
 import StayFy from "../../assets/New_Project/StayFy.png";
-import Insta from "../../assets/New_Project/instagramClone.png";
+import instagramClone from "../../assets/New_Project/instagramClone.png";
 import Blog from "../../assets/New_Project/BlogPost.png";
 import ImageCard from "./ImageCard";
 
@@ -15,7 +15,7 @@ const ImageCont = () => {
       desc: "React, Cloudflare workers, Zod, Typescript, Prisma as the ORM, Postgres, JWT, Cloudinary, Razorpay, Tailwind CSS, Redux Toolkit",
     },
     {
-      imgScr: Insta,
+      imgScr: instagramClone,
       link: "https://github.com/alammd0/insta-mka",
       title: "Insta-MKA",
       desc: "Next.js, Typescript, Prisma as the ORM, Postgres, JWT, Cloudinary, Tailwind CSS, Redux Toolkit",
