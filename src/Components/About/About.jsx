@@ -25,7 +25,7 @@ const About = () => {
               scalable web applications using Full Stack and MERN Stack
               technologies. <br />
               <b>🔧 Tech Stack I Work With: </b> <br />
-              <b> Frontend: </b> HTML, CSS, JavaScript,eact.js, Tailwind CSS, Redux Toolkit<br />
+              <b> Frontend: </b> HTML, CSS, JavaScript, React.js, Tailwind CSS, Redux Toolkit<br />
               <b> Backend: </b> Node.js, Express.js, Cloudflare workers (Hono), Next.Js, ZOD Validation<br />
               <b> Database: </b> MongoDB, Prisma as the ORM, Postgres <br /> 
               <b> Other Tools : </b> Git & GitHub, REST APIs,
@@ -54,9 +54,11 @@ const About = () => {
               <span>Freelance</span> : Available
             </p>
           </div>
+
           <div className="btn">
             <button>Download CV</button>
           </div>
+          
         </div>
       </div>
     </div>
